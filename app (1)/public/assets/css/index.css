@@ -1,0 +1,54 @@
+
+/* Fundo da página */
+body {
+    background: #f9edf1;
+    color: #40363b;
+}
+
+/* Card principal */
+.card {
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgb(120 60 80 / 10%);
+}
+
+/* Título principal */
+.title {
+    color: #944b68;
+}
+
+/* Botões dos semestres */
+.semesters a {
+    background: #b46b87;
+    color: #ffffff;
+}
+
+.semesters a:hover {
+    background: #914b68;
+}
+
+.semesters a:focus-visible {
+    outline-color: #40363b;
+}
+
+/* Títulos do cabeçalho */
+header h1 {
+    color: #944b68;
+}
+
+header h3 {
+    color: #59454e;
+}
+
+/* Botões do cabeçalho */
+header a {
+    background: #b46b87;
+    color: #ffffff;
+}
+
+header a:hover {
+    background: #914b68;
+}
+
+header a:focus-visible {
+    outline-color: #40363b;
+}
