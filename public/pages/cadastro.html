@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro | DSM</title>
+  <link rel="stylesheet" href="/assets/css/index.css">
+  <script src="/assets/js/forms.js" defer></script>
+</head>
+<body>
+  <main class="card form-card">
+    <nav aria-label="Navegação principal">
+      <a href="/">Início</a>
+      <a href="/login">Login</a>
+      <a href="/cadastro" aria-current="page">Cadastro</a>
+    </nav>
+    <h1 class="title">Criar conta</h1>
+    <p>Exemplo de interface. Os dados não são enviados nem armazenados.</p>
+    <form data-demo-form novalidate>
+      <label for="nome">Nome</label>
+      <input id="nome" type="text" autocomplete="name">
+      <label for="email">E-mail</label>
+      <input id="email" type="email" autocomplete="email">
+      <label for="senha">Senha</label>
+      <input id="senha" type="password" autocomplete="new-password">
+      <button type="submit">Cadastrar (demonstração)</button>
+      <p class="form-message" role="status"></p>
+    </form>
+    <p>Já tem conta? <a href="/login">Veja o login</a>.</p>
+  </main>
+</body>
+</html>
